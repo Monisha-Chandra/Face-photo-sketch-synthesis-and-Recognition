@@ -2,7 +2,7 @@
 Conversion of face photo to sketch, face sketch to photo and recognition in both modalities
 
 ## Face sketch synthesis 
-Files required
+Files required <br>
 	Photo-Sketch.py 
 	input.jpg 
 Commands:
