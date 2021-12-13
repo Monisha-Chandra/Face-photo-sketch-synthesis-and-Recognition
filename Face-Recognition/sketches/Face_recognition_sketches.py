@@ -446,49 +446,6 @@ axi.set_ylabel('Accuracy')
 axi.set_title('Accuracy vs. k-value')
 
 
-# In[63]:
-
-
-from PIL import Image
-import PIL
-for i in [161, 162, 163, 164]:
-    base_width = 70
-    image = Image.open('Archive2/test_s/' + str(i) + '.jpg')
-    width_percent = (base_width / float(image.size[0]))
-    hsize = int((float(image.size[1]) * float(width_percent)))
-    image = image.resize((base_width, hsize), PIL.Image.ANTIALIAS)
-    image.save(str(i)+'.jpg')
-
-
-# In[64]:
-
-
-import cv2
-for i in [161, 162, 163, 164]:
-    base_height = 80
-    image = Image.open(str(i)+'.jpg')
-    hpercent = (base_height / float(image.size[1]))
-    wsize = int((float(image.size[0]) * float(hpercent)))
-    image = image.resize((70, base_height), PIL.Image.ANTIALIAS)
-    img1 = np.array(image)
-    #print(img1.shape)
-    image.save(str(i)+'.jpg')
-    img = cv2.imread(str(i)+'.jpg')
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    cv2.imwrite(str(i)+'.jpg', gray)
-    print(gray.shape)
-    #image.save(str(i)+'.jpg')
-
-
-# In[65]:
-
-
-img = cv2.imread('Archive2/test_s/164.jpg')
-gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-cv2.imwrite('Archive2/test_s/164.jpg', gray)
-
-
-# In[ ]:
 
 
 
