@@ -11,14 +11,15 @@ input.jpg
 
 ## Face photo synthesis
 ### Files required 
-haarcascade_frontalface_default.xml
-training_output_cropped.npy
-training_input_cropped.npy 
-detect_face.py 
-fetch_data.py 
-Photo-Sketch.py
-train_model.py
-Prediction.py
+haarcascade_frontalface_default.xml <br>
+training_output_cropped.npy <br>
+training_input_cropped.npy <br>
+detect_face.py <br>
+fetch_data.py <br>
+Photo-Sketch.py <br>
+train_model.py <br>
+Prediction.py <br>
+CelebA Dataset 
 ### Commands : 
 	python3 detect_face.py
 	python3 fetch_data.py 
@@ -28,7 +29,7 @@ Prediction.py
 
 ## Facial recognition
 ### Requirements : 
-Orl dataset 
+ORL dataset 
 ### Commands : 
 	python3 Face_recognition.py
 
