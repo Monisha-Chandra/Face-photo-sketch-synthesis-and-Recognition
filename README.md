@@ -20,11 +20,11 @@ Photo-Sketch.py
 train_model.py
 Prediction.py
 ### Commands : 
-	python3 detect_face.py
-	python3 fetch_data.py 
-	python3 Photo-Sketch.py 
-	python3 train_model.py 
-	python3 Prediction.py path_to_sketch.jpg 
+python3 detect_face.py
+python3 fetch_data.py 
+python3 Photo-Sketch.py 
+python3 train_model.py 
+python3 Prediction.py path_to_sketch.jpg 
 
 ## Facial recognition
 ### Requirements : 
