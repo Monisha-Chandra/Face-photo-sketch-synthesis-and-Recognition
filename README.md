@@ -3,32 +3,32 @@ Conversion of face photo to sketch, face sketch to photo and recognition in both
 
 ## Face sketch synthesis 
 Files required <br>
-	Photo-Sketch.py 
-	input.jpg 
-Commands:
-	python3 Photo-Sketch.py 
-	(give path to input images in Photo-Sketch.py file in ‘path=’/images’’)
+	Photo-Sketch.py <br>
+	input.jpg <br>
+Commands: <br>
+	python3 Photo-Sketch.py <br>
+	(give path to input images in Photo-Sketch.py file in ‘path=’/images’’) <br>
 
 ## Face photo synthesis
-Files required 
-haarcascade_frontalface_default.xml 
-training_output_cropped.npy 
-training_input_cropped.npy
-detect_face.py
-fetch_data.py
-Photo-Sketch.py 
-train_model.py
-Prediction.py
-Commands :
-	python3 detect_face.py
-	python3 fetch_data.py
-	python3 Photo-Sketch.py
-	python3 train_model.py
-	python3 Prediction.py path_to_sketch.jpg
+Files required <br>
+haarcascade_frontalface_default.xml <br>
+training_output_cropped.npy <br>
+training_input_cropped.npy <br>
+detect_face.py <br>
+fetch_data.py <br>
+Photo-Sketch.py <br>
+train_model.py <br>
+Prediction.py <br>
+Commands : <br>
+	python3 detect_face.py <br>
+	python3 fetch_data.py <br>
+	python3 Photo-Sketch.py <br>
+	python3 train_model.py <br>
+	python3 Prediction.py path_to_sketch.jpg <br>
 
 ## Facial recognition
-Requirements :
-	Orl dataset
-Commands :
-	python3 Face_recognition.py
+Requirements : <br>
+	Orl dataset <br>
+Commands : <br>
+	python3 Face_recognition.py <br>
 
