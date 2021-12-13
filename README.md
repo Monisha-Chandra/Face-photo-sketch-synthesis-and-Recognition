@@ -28,7 +28,7 @@ python3 Prediction.py path_to_sketch.jpg
 
 ## Facial recognition
 ### Requirements : 
-	Orl dataset 
+Orl dataset 
 ### Commands : 
-	python3 Face_recognition.py
+python3 Face_recognition.py
 
