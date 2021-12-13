@@ -3,8 +3,8 @@ Conversion of face photo to sketch, face sketch to photo and recognition in both
 
 ## Face sketch synthesis 
 Files required
-Photo-Sketch.py 
-input.jpg 
+	Photo-Sketch.py 
+	input.jpg 
 Commands:
 	python3 Photo-Sketch.py 
 	(give path to input images in Photo-Sketch.py file in ‘path=’/images’’)
