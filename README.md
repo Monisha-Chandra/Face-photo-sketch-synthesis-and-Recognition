@@ -1,6 +1,15 @@
 # Face-photo-sketch-synthesis-and-Recognition
-Conversion of face photo to sketch, face sketch to photo and recognition in both modalities
-
+In this project we aim to present a simple Face Photo-Sketch Synthesis and Recognition
+system. FSS(Face Sketch Synthesis) provides a way to compare and match the faces present
+in two different modalities (i.e face-photos and face-sketches). We can reduce the difference
+between photo and sketch significantly and decrease the texture irregularity between them
+by converting the photo to a sketch or vice-versa. This results in effective matching between
+the two thus simplifying the process of recognition.
+This system is modeled using three major components:
+i) For a given input face-photo, obtaining an output face-sketch
+ii) For a given input face-sketch, obtaining an output face-photo
+iii) Recognition of the face-photo or the face-sketch in the database for a given query
+face-sketch or face-photo respectively
 ## Face sketch synthesis 
 ### Files required 
 Photo-Sketch.py 
