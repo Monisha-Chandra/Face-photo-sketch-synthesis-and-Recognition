@@ -38,7 +38,7 @@ CelebA Dataset
 
 ## Facial recognition
 ### Requirements : 
-ORL dataset 
+ORL Dataset 
 ### Commands : 
 	python3 Face_recognition.py
 
